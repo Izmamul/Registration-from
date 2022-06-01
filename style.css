@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+
+}
+body{
+	
+	background-color: blueviolet;
+	
+}
+
+table{
+	margin: auto;
+	color: lavenderblush;
+	/*background-color: rgb(0, 0, 0,1.5);*/
+		width: 100px;
+	padding: 15px;
+	margin: 15px auto 0;
+	border-top: 1px solid black;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 1.9);
+	background-color: transparent;
+}
+.text{
+	color: white;
+	font-size: 40px;
+}
+.text-small{
+	font-size: 20px;
+	font-weight: 3px;
+}
+.contact{
+	margin-top: 20px;
+	padding: 2px 5px;
+}
+.text-big :hover{
+	
+
+	color: red;
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+.text-big {
+
+	color: black;
+}
