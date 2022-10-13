@@ -6,7 +6,7 @@
             const scriptURL = 'https://script.google.com/macros/s/AKfycbwxksme2OkhZzL9ymtTt5xzwrg-Cph-s1mOQGTx0ihpaYMiwZromDR-VmBOvUQRs4n4/exec'
             const form = document.forms['google-sheet']
           
-            form.addEventListener('submit', e => {
+            form.addEventListener('Submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
@@ -22,7 +22,7 @@ cellspacing="2">
 
 <tr class="text">
 <td colspan=2>
-<center><font size=4><b>Student Registration Form</b></font></center>
+<center><font size=5><b>Student Registration Form</b></font></center>
 </td>
 </tr>
 
@@ -118,11 +118,14 @@ id="personaladdress" size="30"></td>
 </tr>
 <tr class="text-big">
 <td class="text-big"><input type="reset" name="reset"></td>
-<td class="text-big"><input type="submit" value="Submit Form" name="Submit" ></td>
+<td class="text-big"><input type="submit" value="Submit Form" name="Submit" onclick="submit()" ></td>
 </tr>
 </table>
 </form>
 
 
 </body>
+<footer>
+  <a> &#169;Copyright by Izmamul since @2022</a>
+</footer>
 </html>

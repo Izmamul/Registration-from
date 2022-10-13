@@ -4,7 +4,7 @@
 }
 body{
 	
-	background-color: blueviolet;
+	background-image: linear-gradient(to bottom right,purple, blue );
 	
 }
 
@@ -43,4 +43,10 @@ table{
 .text-big {
 
 	color: black;
+}
+
+footer{
+	text-align: center;
+	padding-top: 2rem;
+	color: white;
 }
